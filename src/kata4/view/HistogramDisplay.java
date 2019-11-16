@@ -1,12 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package kata4.view;
 
 import kata4.model.Histogram;
-import java.awt.Container;
 import java.awt.Dimension;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
@@ -18,7 +12,7 @@ import org.jfree.ui.ApplicationFrame;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Larez
  */
 public class HistogramDisplay extends ApplicationFrame{
     private final Histogram histogram;

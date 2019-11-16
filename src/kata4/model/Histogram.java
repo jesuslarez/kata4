@@ -4,7 +4,6 @@ package kata4.model;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Set;
-import static javafx.scene.input.KeyCode.T;
 
 public class Histogram<T> {
     private final Map<T, Integer> map = new HashMap<T, Integer>();
